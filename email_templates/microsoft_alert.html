@@ -1,0 +1,21 @@
+<html>
+<head><style>
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background:#f3f2f1; padding:20px; }
+  .container { max-width:500px; margin:auto; background:white; padding:30px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+  .logo { margin-bottom:20px; }
+  .btn { background:#0078d4; color:white; padding:12px 24px; text-decoration:none; border-radius:2px; font-weight:bold; display:inline-block; margin:20px 0; }
+  .footer { color:#605e5c; font-size:12px; margin-top:30px; }
+</style></head>
+<body>
+<div class="container">
+  <div class="logo"><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c15" alt="Microsoft" width="108"></div>
+  <p>Dear {{name}},</p>
+  <p>Microsoft account <strong>{{email}}</strong> was accessed from an unrecognised location on {{date}}.</p>
+  <p>If this wasn’t you, we recommend you reset your password immediately.</p>
+  <p style="text-align:center;">
+    <a href="{{link}}" class="btn">Review Activity</a>
+  </p>
+  <div class="footer">Microsoft Corporation · One Microsoft Way, Redmond, WA 98052</div>
+</div>
+</body>
+</html>
