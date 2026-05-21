@@ -85,7 +85,7 @@ phishmatrix-framework/
 
 1. **Download or clone the repository**
    ```bash
-   git clone https://github.com/your-repo/phishmatrix-framework.git
+   git clone https://github.com/DinethChanuka/phishmatrix-framework.git
    cd phishmatrix-framework
    ```
 
